@@ -6,7 +6,7 @@ body{
 #main-container{
     display: block;
 	width: 550px;
-	margin: 10px auto 10px;
+	margin: 50px auto 50px;
 	background-color:#fff;
 	padding:0px 10px 10px 10px;
 	border-radius:10px;
@@ -32,7 +32,7 @@ body{
 	text-transform: uppercase;
 }
 
-#create-task-box{
+#create-task-box, #todo-task-box, #completed-task-box{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,7 +44,6 @@ button{
 	color: #888;
 	font-size: 16px;
 	cursor: pointer;
-
 }
 
 #create-task:hover{
@@ -68,7 +67,7 @@ input:focus {
 	color: #222;
 }
 
-#tasks-list-box{
+#tasks-list-box, #completed-list-box{
     overflow: auto;
     padding: 20px;
 }
