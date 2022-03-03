@@ -1,0 +1,103 @@
+body{
+    font: 1em sans-serif;
+    background: linear-gradient(to right, #c31432, #240b36);
+}
+
+#main-container{
+    display: block;
+	width: 550px;
+	margin: 10px auto 10px;
+	background-color:#fff;
+	padding:0px 10px 10px 10px;
+	border-radius:10px;
+    overflow: hidden;
+}
+
+#main-title{
+    text-align: center;
+}
+
+#main-title > h2{
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+#sub-title{
+    margin: 10px;
+    color: #222;
+	font-weight: 700;
+	font-size: 15px;
+	border-bottom: 2px solid #333;
+	padding: 20px 0 10px;
+	text-transform: uppercase;
+}
+
+#create-task-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    background: none;
+	border: 0px;
+	color: #888;
+	font-size: 16px;
+	cursor: pointer;
+
+}
+
+#create-task:hover{
+	color: rgb(3, 100, 190);
+}
+
+input{
+	font-size: 16px;
+	line-height: 18px;
+	height: 18px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 6px;
+	color: #888;
+    outline: none;
+    margin: 4px;
+}
+
+input:focus {
+	color: #222;
+}
+
+#tasks-list-box{
+    overflow: auto;
+    padding: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+#tasks{
+    display: flex;
+    width: 510px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#list-content{
+    display: block;
+    width: 320px;
+    overflow: hidden;
+    white-space: normal;
+    overflow: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+#save-button:hover{
+    color: rgb(0, 0, 0);
+}
+
+#delete-button:hover{
+    color: rgb(255, 0, 0);
+}
